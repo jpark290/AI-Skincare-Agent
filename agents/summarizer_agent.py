@@ -1,9 +1,10 @@
 # summarizer_agent_groq.py (FREE VERSION)
 from groq import Groq
 
-client = Groq(api_key="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") 
+client = Groq(api_key="GROQ_API_KEY") 
 import os
-
+from dotenv import load_dotenv
+load_dotenv()
 
 
 def summarizer_agent(evidence_list):
